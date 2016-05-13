@@ -1,0 +1,80 @@
+body {
+	background: #EFE7D4;
+	color: #3a2a1a;
+	font-family: 'Alegreya', serif;
+	font-size: 16px;
+}
+
+h1 {
+	color: #93353F;
+	font-weight: 700;
+}
+
+h2 {
+	margin: 15px auto;
+}
+
+/* mobile menu */
+#mobile-only li {
+	background: #93353F;
+	border-bottom: 1px solid #E3D0C3;
+}
+
+#mobile-only > .navbar-nav {
+	margin: 0 -15px;
+}
+
+.navbar-default {
+	background: #4F3339;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #E3D0C3;
+	font-size: 1.1em;
+}
+
+.navbar-default .navbar-brand {
+	color: #E3D0C3;
+	font-size: 1.5em;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #E3D0C3;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #E3D0C3;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #E88E77;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #E88E77;	
+}
+
+/* main content */
+.food-menu {
+	background: #E3D0C3;
+	margin: 30px;
+	min-height: 1200px;
+	padding: 20px;
+	position: relative;
+}
+
+.food-menu .col-xs-12 {
+	margin-bottom: 30px;
+}
+
+.returnlink {
+	bottom: 15px;
+	left: 20px;
+	position: absolute;
+}
+
+@media only screen and (min-width: 480px) {
+	.food-menu {
+		text-align: justify;
+	}
+}
